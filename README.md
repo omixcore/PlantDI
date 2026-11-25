@@ -13,6 +13,28 @@ All policy, prompts and source hashes are frozen in `v7_expert_alignment/policy_
 
 ---
 
+## Overview
+
+![PlantDI system workflow and five-stage cross-domain audit](figures/Fig1.jpg)
+
+**Figure 1. PlantDI system workflow and five-stage cross-domain audit.** **(A) System workflow.**
+Python scripts or a terminal CLI (CPU / RTX GPU) send raw leaf pixels only — either controlled
+panels (Legacy-37) or natural-scene images (PlantSeg-100) — to a shared routing agent with
+three stages: (1) an image and context parser that reads only raw pixels for scene, background
+and lesion hue; (2) a SHA256-frozen route executor selecting colour thresholding, VLM bounding
+boxes/polygons (SAM-free), or the domain-adapted fine-tuned SAM 2 decoder; and (3) severity
+quantification and audit producing a standardised disease index (%) plus raw fractions, with
+two-tier retry and a cached JSON audit. The external MLLM endpoint is OpenAI-compatible
+(`deepseek-flash`, effort low/high). Outputs are Python CSV/JSON logs, lesion overlays and
+downstream vector figures (SVG/PDF). **(B) Five-stage cross-domain audit and decoder adaptation.**
+Stage 1, v4 controlled (Legacy-37, r = 0.9104, CCC = 0.9104); Stage 2, v5 transfer
+(PlantSeg-48, r = -0.1175, 54.7% green lesions — colour collapse); Stage 3, v6 zero-shot
+SAM 2 (PlantSeg-100 r = 0.104, Legacy-37 drops 0.459 — SAM 2 degrades); Stage 4, SAM-free /
+v7 zero-shot (r = 0.5434, mIoU = 0.248); Stage 5, T4b end-to-end with the fine-tuned SAM 2
+decoder on a local RTX 3060 GPU (r = 0.576, mIoU = 0.558, Dice = 0.681).
+
+---
+
 ## Repository layout
 
 ```text
@@ -21,6 +43,8 @@ All policy, prompts and source hashes are frozen in `v7_expert_alignment/policy_
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
+├── figures/
+│   └── Fig1.jpg                          # overview figure rendered above
 ├── results/                              # v4 table required by the offline benchmark builder
 │   └── predictions_v4_agent.csv
 ├── v4_controlled/                        # frozen v4 controlled-panel route

@@ -1,0 +1,5 @@
+# Preserve LF so that the frozen SHA256 values remain valid after checkout.
+* text=auto eol=lf
+*.png binary
+*.zip binary
+*.pt binary

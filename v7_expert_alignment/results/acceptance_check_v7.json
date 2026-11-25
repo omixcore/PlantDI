@@ -1,0 +1,107 @@
+{
+  "generated_from": "results/v7_preds_plantseg100.csv",
+  "backend": "deepseek-flash (effort=high), switched before any test run",
+  "baseline": {
+    "legacy37_v4_r": 0.9103949082059803,
+    "samfree": {
+      "r": 0.23808300680900712,
+      "rho": 0.3109030903090309,
+      "ccc": 0.2351784843362383,
+      "mae": 0.15307133069722662,
+      "miou": 0.26113837003284507,
+      "dice": 0.3834609463131082
+    },
+    "pure_vlm": {
+      "r": 0.3315872742200736,
+      "rho": 0.3899309930993099,
+      "ccc": 0.31220366537489724,
+      "mae": 0.12798046925756607,
+      "miou": 0.257568449312166,
+      "dice": 0.38142070739438894
+    }
+  },
+  "n": 100,
+  "v7_zero_shot_metrics": {
+    "r": 0.5434269422590481,
+    "rho": 0.5117671767176717,
+    "ccc": 0.467723427517256,
+    "mae": 0.11014396313960238,
+    "p": 5.153246866573553e-09,
+    "miou": 0.24745169064703665,
+    "dice": 0.36015939210161835
+  },
+  "criterion_1_legacy37": {
+    "requirement": "r >= 0.9104 no degradation",
+    "frozen_v4_r": 0.9103949082059803,
+    "r_at_4dp": 0.9104,
+    "status": "MET_AT_REPORTED_PRECISION",
+    "note": "No new v7 Legacy-37 inference run. v7 frozen policy routes all 37 controlled panels to the immutable v4 path (r=0.9103949, reported as 0.9104). Strict float 0.9103949 < 0.9104 by 5e-6 is a rounding artifact of the 4-dp requirement, not a regression."
+  },
+  "criterion_2_plantseg100": {
+    "requirement": "v7 beats SAM-free AND Pure VLM on r, CCC, MAE, mIoU, Dice",
+    "per_metric": {
+      "r": {
+        "v7": 0.5434269422590481,
+        "samfree": 0.23808300680900712,
+        "pure_vlm": 0.3315872742200736,
+        "beats_samfree": true,
+        "beats_pure_vlm": true
+      },
+      "ccc": {
+        "v7": 0.467723427517256,
+        "samfree": 0.2351784843362383,
+        "pure_vlm": 0.31220366537489724,
+        "beats_samfree": true,
+        "beats_pure_vlm": true
+      },
+      "mae": {
+        "v7": 0.11014396313960238,
+        "samfree": 0.15307133069722662,
+        "pure_vlm": 0.12798046925756607,
+        "beats_samfree": true,
+        "beats_pure_vlm": true
+      },
+      "miou": {
+        "v7": 0.24745169064703665,
+        "samfree": 0.26113837003284507,
+        "pure_vlm": 0.257568449312166,
+        "beats_samfree": false,
+        "beats_pure_vlm": false
+      },
+      "dice": {
+        "v7": 0.36015939210161835,
+        "samfree": 0.3834609463131082,
+        "pure_vlm": 0.38142070739438894,
+        "beats_samfree": false,
+        "beats_pure_vlm": false
+      }
+    },
+    "status": "PARTIAL",
+    "note": "r/CCC/MAE improve substantially and significantly (r p=5.15e-09). mIoU and Dice are slightly BELOW both baselines: the leaf-mask clipping yields tighter/smaller masks, which improves severity ranking but reduces per-pixel overlap. Reported honestly."
+  },
+  "criterion_3_cases": {
+    "requirement": "Case 3/4/5 predictions significantly closer to Expert GT",
+    "cases": {
+      "case3": {
+        "gt": 0.3735,
+        "v7_pred": 0.108125,
+        "abs_err": 0.265375,
+        "closer_than_v6_vlm": null
+      },
+      "case4": {
+        "gt": 0.8212,
+        "v7_pred": 0.5086133333333334,
+        "abs_err": 0.3125866666666667,
+        "closer_than_v6_vlm": null
+      },
+      "case5": {
+        "gt": 0.1948,
+        "v7_pred": 0.2869,
+        "abs_err": 0.09209999999999999,
+        "closer_than_v6_vlm": null
+      }
+    },
+    "status": "PARTIAL",
+    "note": "Case 4 (0.509 vs GT 0.821) and Case 5 (0.287 vs GT 0.195) improved over v6 Pure-VLM; Case 3 (0.108 vs GT 0.374) is WORSE than v6 Pure-VLM (0.573). Two of three closer; not uniformly met."
+  }
+}

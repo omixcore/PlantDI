@@ -1,0 +1,38 @@
+sample_id,crop,batch,published,pred,branch,route_reason,mllm_bg,mllm_morph,leaf_px,lesion_px,z_pub,z_pred
+ara_Fig1_WMA1_single,arabidopsis,Fig1,5.1,31.22222222222222,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,1800,562,0.9604804394115461,1.424581502240838
+ara_Fig1_KoSsPINE1-1_single,arabidopsis,Fig1,1.7273333333333334,10.052910052910052,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,3213,323,-1.0160571282837856,-1.2501026428348645
+ara_Fig1_KoSsPINE1-7_single,arabidopsis,Fig1,1.7836666666666667,15.75,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,3200,504,-0.9830432076531757,-0.5302910574286502
+ara_Fig1_ComSsPINE1-1_single,arabidopsis,Fig1,5.233333333333333,22.763237979306147,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,3286,748,1.038619896525416,0.35581219802267694
+ara_Fig2_WMA1_single,arabidopsis,Fig2,4.71,16.550522648083625,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,2296,380,1.070845855750274,1.3532074978291804
+ara_Fig2_KoSsPG1-1_single,arabidopsis,Fig2,1.1333333333333333,7.526881720430108,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,2976,224,-0.971670548516092,-1.1166443109638087
+ara_Fig2_KoSsPG1-3_single,arabidopsis,Fig2,1.0393333333333334,8.731808731808732,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,4810,420,-1.0253508491687588,-0.7868449337083472
+ara_Fig2_ComSsPG1-1_single,arabidopsis,Fig2,4.456666666666667,13.617021276595745,geometry,pale-bg single isolated disc -> semantic bbox geometry,pale,isolated_disc,1645,224,0.9261755419345764,0.5502817468429755
+ara_Fig6_WMA1_Col-0,arabidopsis,Fig6,0.9083333333333332,48.57167398944784,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,2380,1166,0.5754549391969578,0.9663050253809309
+ara_Fig6_KoSsPINE1-7_Col-0,arabidopsis,Fig6,0.663,29.03228883420213,color,dark-bg detached-leaf panel -> per-pixel color area,dark,diffuse_necrosis,1980,548,0.021271314402766358,-0.23712863419868796
+ara_Fig6_KoSsPG1-2_Col-0,arabidopsis,Fig6,0.0464166666666666,9.707399697374916,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,2116,206,-1.3715291746774734,-1.427351451862878
+ara_Fig6_WMA1_35SSsPINE1,arabidopsis,Fig6,1.2633333333333334,48.131073196395214,color,dark-bg detached-leaf panel -> per-pixel color area,dark,diffuse_necrosis,2630,1260,1.3773646680092058,0.939168356515245
+ara_Fig6_KoSsPINE1-7_35SSsPINE1,arabidopsis,Fig6,1.1133333333333333,50.74148358278799,color,dark-bg detached-leaf panel -> per-pixel color area,dark,diffuse_necrosis,2315,1166,1.038529571327974,1.0999439233686332
+ara_Fig6_KoSsPG1-2_35SSsPINE1,arabidopsis,Fig6,0.8391666666666667,41.20653197466222,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,2230,919,0.4192143112828348,0.5126848250647759
+ara_Fig6_WMA1_35SAtPGIP1,arabidopsis,Fig6,0.8866666666666667,43.67232814395328,color,dark-bg detached-leaf panel -> per-pixel color area,dark,diffuse_necrosis,2456,1050,0.5265120918985581,0.6645535806172344
+ara_Fig6_KoSsPINE1-7_35SAtPGIP1,arabidopsis,Fig6,0.1165,13.305958884093336,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,2505,328,-1.2132178878391866,-1.2057156523288397
+ara_Fig6_KoSsPG1-2_35SAtPGIP1,arabidopsis,Fig6,0.0454999999999999,11.572819404855204,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,2304,265,-1.3735998336016366,-1.3124599725564141
+ara_Fig7_WT_Col-0,arabidopsis,Fig7,0.8553333333333333,92.9431283567551,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,6514,6066,0.08005657615771451,0.8816162454696616
+ara_Fig7_KoBcPINE1-6_Col-0,arabidopsis,Fig7,0.5913333333333334,52.18204726826068,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,5671,2879,-0.7424922884940921,-0.622673689243177
+ara_Fig7_WT_35SSsPINE1,arabidopsis,Fig7,1.1976666666666669,92.839624334953,color,dark-bg detached-leaf panel -> per-pixel color area,dark,diffuse_necrosis,6879,6371,1.1466698135281772,0.8777964238643131
+ara_Fig7_KoBcPINE1-6_35SSsPINE1,arabidopsis,Fig7,1.2368333333333332,87.51831657078162,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,5692,5004,1.2687019998875035,0.681413268771506
+ara_Fig7_WT_35SAtPGIP1,arabidopsis,Fig7,0.7731666666666667,71.15898601761995,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,5618,3983,-0.1759513722471722,0.07767127683725096
+ara_Fig7_KoBcPINE1-6_35SAtPGIP1,arabidopsis,Fig7,0.3234999999999999,17.68406750779093,color,dark-bg detached-leaf panel -> per-pixel color area,dark,isolated_disc,5980,1029,-1.5769847288321315,-1.8958235256995561
+case1_fig1_a,rice,rice_Fig1,60.0,30.10081087004164,color,diffuse/scattered or natural bg -> per-pixel color area,pale,diffuse_necrosis,9126,2747,2.5205435203051065,2.773345789533372
+case1_fig1_b,rice,rice_Fig1,30.0,3.533205268935236,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,14576,515,0.18189494143745266,-0.5994369556023896
+case1_fig1_c,rice,rice_Fig1,13.33333,7.542478242851223,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,12065,910,-1.1173545288944193,-0.09045594654977702
+case1_fig1_d,rice,rice_Fig1,20.0,5.424373126690548,color,diffuse/scattered or natural bg -> per-pixel color area,pale,diffuse_necrosis,13679,742,-0.5976545848517654,-0.3593514012411473
+case1_fig1_e,rice,rice_Fig1,26.66667,6.882935893465469,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,12916,889,-0.07795464080911124,-0.17418547374517968
+case1_fig1_f,rice,rice_Fig1,33.33333,11.980602833507657,color,diffuse/scattered or natural bg -> per-pixel color area,pale,diffuse_necrosis,10517,1260,0.4417445236840163,0.4729681822511022
+case1_fig1_g,rice,rice_Fig1,33.33333,6.042539477924589,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,12412,750,0.4417445236840163,-0.2808745962791344
+case1_fig1_h,rice,rice_Fig1,20.0,7.7860921171461746,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,15502,1207,-0.5976545848517654,-0.05952893400546749
+case1_fig1_i,rice,rice_Fig1,26.66667,2.9936305732484074,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,14130,423,-0.07795464080911124,-0.6679364753050092
+case1_fig1_j,rice,rice_Fig1,13.33333,0.2633814783347493,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,11770,31,-1.1173545288944193,-1.0145441890563691
+case3_s11_1,mango,mango_S11,24.9,5.2780164477721865,color,diffuse/scattered or natural bg -> per-pixel color area,pale,diffuse_necrosis,24441,1290,0.8516884021332922,1.3471957107960768
+case3_s11_2,mango,mango_S11,25.0,3.647378832838773,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,24264,885,0.9147764319209443,0.5353679569448234
+case3_s11_3,mango,mango_S11,23.2,1.1863774007549674,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,24107,286,-0.22080810425677788,-0.6898639686138774
+case3_s11_4,mango,mango_S11,21.1,0.1763813117847327,color,diffuse/scattered or natural bg -> per-pixel color area,pale,scattered_flecks,24379,43,-1.545656729797452,-1.192699699127023

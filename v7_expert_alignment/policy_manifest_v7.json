@@ -1,0 +1,94 @@
+{
+  "manifest_version": "v7.0",
+  "generated_at_utc": "2026-11-24T15:28:30.670769+00:00",
+  "frozen_before_evaluation": true,
+  "frozen_date": "2026-11-24",
+  "note": "Frozen a priori. controlled requires scanner_white or black_velvet backdrop; every other scene (including clean-looking natural-light single leaves) is in_the_wild and routed to the VLM polygon branch. Legacy controlled panels keep the exact v4 decision path. No SAM2 in any zero-shot branch.",
+  "policy": {
+    "source": "v7_expert_alignment/src/frozen_policy_v7.py::route()",
+    "route_sha256": "9958e71dcdef4137e19c2d634672cb2fdf1657db322d288c3448fa00946a2da4"
+  },
+  "prompts": {
+    "ROUTE_SYSTEM_V7": "9fef0963bf004659518a513c16aa0ba174185116d3a9d1ae443703a4b5e3d8eb",
+    "ROUTE_USER_V7": "a8a6d56747d2b31b24184b98385dd2c624b0b305b0a0aab398ea6b84a1afe77d",
+    "POLYGON_PRIMARY_V7": "7714fd3ab4405858e113d8ad6ab760b8afca76084b295e8224553620a1ca148a",
+    "POLYGON_RETRY_V7": "3c61e05bd701e34dbc7c383c0cd95ef32beb232f4240ecb81697a4c68a682e1f",
+    "POLYGON_USER_V7": "a6f1b5c6fe2b23145cb57a194f44c235f30034daf313cc64d2648d2776653f12"
+  },
+  "frozen_config": {
+    "t1_backend": "deepseek_openai_compatible",
+    "t1_models": [
+      "deepseek-flash"
+    ],
+    "t1_base_url": "https://api.deepseek.com",
+    "t1_chat_url": "https://api.deepseek.com/chat/completions",
+    "t1_key_env": "DEEPSEEK_API_KEY",
+    "t1_max_side_px": 0,
+    "t1_jpeg_quality": 95,
+    "t1_reasoning_field": "effort",
+    "t1_reasoning_effort": "high",
+    "t1_max_output_tokens": 4096,
+    "t3_tta": [
+      "original",
+      "horizontal_flip"
+    ],
+    "t3_tta_combine": "union",
+    "t3_leaf_mask_method": "hsv_or_grabcut",
+    "t3_calibration": "training_only_symptom_quantile",
+    "t3_retry_chain": [
+      "primary",
+      "retry",
+      "fallback"
+    ],
+    "t5_seed": 42
+  },
+  "source_files": {
+    "src/frozen_policy_v7.py": {
+      "sha256": "e0076cedcfbb86fd8ba94a798053015953ac342c4d5e7c90fe73e14ff66582fa",
+      "bytes": 3846
+    },
+    "src/llm_client_deepseek.py": {
+      "sha256": "e2592a43d33e0b792dce1c6f1e3012c83957136c1d7af61adf5668cb25273e32",
+      "bytes": 8596
+    },
+    "src/llm_client_gemini.py": {
+      "sha256": "503cbf9c69c6c9b1b813d8ca408c8363b85e1d26f19c4b48954159b4913c6d1d",
+      "bytes": 8396
+    },
+    "src/metrics.py": {
+      "sha256": "6ad39915ace5982bf912699b71fae38d3aac2722ef35e15d7e7a885006de0d1c",
+      "bytes": 4560
+    },
+    "src/polygon_and_clip.py": {
+      "sha256": "0976c8665ef3c852adbdedd4ef6bf9d443857ef2955de01d6115f61ce8421520",
+      "bytes": 13382
+    },
+    "src/prompts_v7.py": {
+      "sha256": "6978ce6b61f83d9f1fc80a3ffd94da7040e9bfa1b74e51e0004786a100c6e147",
+      "bytes": 6293
+    },
+    "src/router_brain_v7.py": {
+      "sha256": "2acdd8dd00d48e3470f4c74b6af458365b461766c8359a03847e7cdbafa02a0a",
+      "bytes": 4750
+    },
+    "src/run_v7_eval.py": {
+      "sha256": "d67f8f373473e9d832fc36daa26ae51a2d560f24efe57cb7054f1a90b21abeb7",
+      "bytes": 11072
+    }
+  },
+  "immutable_baseline_sha256": {
+    "v6_three_branch/results/stats_summary_v6.csv": {
+      "sha256": "926f7bfea50552cfe2543164e011e145bee7745a60b440a3ccb7075fa1616d56",
+      "bytes": 670
+    },
+    "v6_three_branch/ablation_samfree/stats_summary_samfree.csv": {
+      "sha256": "7684330d30315489ba7be02027dd7d88241ec00b7ea661e17132f9fd0627bb25",
+      "bytes": 1025
+    },
+    "v5_formal/results/stats_summary_v5.csv": {
+      "sha256": "3fc528b62de0185714bcfa0e2ee07d6ab26c848a1f97ffefdcbb7d06158f080e",
+      "bytes": 651
+    }
+  },
+  "integrity_rule": "Any change to policy/prompts/config/source after this manifest was generated invalidates all v7 results. Re-freeze and re-run from zero; never tune on the test split."
+}

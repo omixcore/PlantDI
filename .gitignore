@@ -1,0 +1,33 @@
+# Local secrets and environment files
+.env
+.env.*
+*.env
+*.key
+*.pem
+*secret*
+credentials.json
+token.txt
+
+# Binary model weights and large data artifacts (distributed via GitHub Releases)
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.whl
+*.docx
+
+# Raw data and third-party source are not redistributed here
+data/_download/
+data/plantseg100/imgs/
+data/plantseg100/masks/
+data/plantseg_train/*
+!data/plantseg_train/t4_data_audit.json
+third_party/
+
+# Regenerated per-image prediction masks (Release asset only)
+results/t4b_masks/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/

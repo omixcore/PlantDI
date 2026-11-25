@@ -1,0 +1,12 @@
+{
+  "protocol": "T4b strictly paired non-oracle prompts",
+  "n": 100,
+  "elapsed_s": 325.9,
+  "cache_sha256": "782fcc602677bacca9aa24530c57af3906baddbba831ad5c51091a09778c39c2",
+  "base_ckpt_sha256": "65b50056e05bcb13694174f51bb6da89c894b57b75ccdf0ba6352c597c5d1125",
+  "ft_weights_sha256": "7a7879fa4ffd235a63c550201d9ce539b20bdba4df01bbd6b26a91c8c5aaa370",
+  "vlm_seconds_total": 1793.8,
+  "sam2_raw_seconds": 30.5,
+  "sam2_ft_seconds": 21.8,
+  "mask_dir": "v7_expert_alignment/results/t4b_masks"
+}

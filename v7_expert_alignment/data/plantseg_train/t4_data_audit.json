@@ -1,0 +1,17 @@
+{
+  "source": "official PlantSeg train parquet shards (XuVV/plantsegv3 mirror)",
+  "n_train_rows_seen": 7916,
+  "n_extracted": 7916,
+  "n_skipped_overlap_test_or_ps100": 0,
+  "n_skipped_no_bbox": 0,
+  "n_skipped_bad_bytes": 0,
+  "exclusion_sizes": {
+    "official_test": 2295,
+    "official_val": 1247,
+    "plantseg100": 100
+  },
+  "overlap_extracted_with_test": 0,
+  "overlap_extracted_with_ps100": 0,
+  "prompt_source": "dataset_annotation_bboxes_xywh_to_xyxy (NOT VLM, NOT GT mask)",
+  "content_sha256_prefix": "94a238c3aff335b8"
+}

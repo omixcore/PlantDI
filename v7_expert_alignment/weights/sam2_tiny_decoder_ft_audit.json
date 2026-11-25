@@ -1,0 +1,17 @@
+{
+  "checkpoint": "v7_expert_alignment/weights/sam2_hiera_tiny.pt",
+  "checkpoint_sha256": "65b50056e05bcb13694174f51bb6da89c894b57b75ccdf0ba6352c597c5d1125",
+  "out": "v7_expert_alignment/weights/sam2_tiny_decoder_ft.pt",
+  "out_sha256": "7a7879fa4ffd235a63c550201d9ce539b20bdba4df01bbd6b26a91c8c5aaa370",
+  "n_items": 7916,
+  "trainable_decoder_params": 4215109,
+  "frozen": "image_encoder + prompt_encoder",
+  "trained": "sam_mask_decoder only",
+  "prompt_source": "official train annotation bboxes (xywh->xyxy), NOT GT mask, NOT VLM",
+  "device": "cuda",
+  "epochs": 2,
+  "lr": 1e-05,
+  "seed": 42,
+  "elapsed_s": 3376.6,
+  "isolation": "verified in t4_data_audit.json: 0 overlap with official Test + PlantSeg-100"
+}

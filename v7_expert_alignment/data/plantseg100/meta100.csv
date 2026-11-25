@@ -1,0 +1,101 @@
+sample_id,crop,disease,in_v5_48,published,mask_ratio
+plantseg_apple_black_rot_143,Apple,apple black rot,1,0.2330354043734814,0.2330354
+plantseg_apple_mosaic_virus_18,Apple,apple mosaic virus,0,0.1490574538638985,0.14905745
+plantseg_apple_rust_4,Apple,apple rust,1,0.5458121141975308,0.54581211
+plantseg_apple_scab_32,Apple,apple scab,0,0.1314458333333333,0.13144583
+plantseg_banana_cigar_end_rot_Bing_0014,Banana,banana cigar end rot,1,0.1318379281537176,0.13183793
+plantseg_banana_cordana_leaf_spot_Bing_0026,Banana,banana cordana leaf spot,0,0.1825917352537722,0.18259174
+plantseg_banana_panama_disease_6,Banana,banana panama disease,1,0.0565006510416666,0.05650065
+plantseg_banana_panama_disease_google_0116,Banana,banana panama disease,0,0.5170503582356145,0.51705036
+plantseg_basil_downy_mildew_google_0050,Basil,basil downy mildew,0,0.1332508697332818,0.13325087
+plantseg_basil_downy_mildew_google_0067,Basil,basil downy mildew,1,0.1948222222222222,0.19482222
+plantseg_basil_downy_mildew_google_0068,Basil,basil downy mildew,0,0.0770123277737491,0.07701233
+plantseg_basil_downy_mildew_google_0091,Basil,basil downy mildew,1,0.13900625,0.13900625
+plantseg_bean_halo_blight_google_0118,Bean,bean halo blight,0,0.1921189194949118,0.19211892
+plantseg_bean_mosaic_virus_google_0098,Bean,bean mosaic virus,1,0.3735416666666666,0.37354167
+plantseg_bean_rust_16,Bean,bean rust,1,0.6403743489583333,0.64037435
+plantseg_bean_rust_google_0009,Bean,bean rust,0,0.5239207792207792,0.52392078
+plantseg_bell_pepper_bacterial_spot_Bing_0019,Bell pepper,bell pepper bacterial spot,0,0.0614827473958333,0.06148275
+plantseg_bell_pepper_bacterial_spot_Bing_0036,Bell pepper,bell pepper bacterial spot,0,0.0223661747685185,0.02236617
+plantseg_bell_pepper_bacterial_spot_Bing_0119,Bell pepper,bell pepper bacterial spot,1,0.0274171796113147,0.02741718
+plantseg_bell_pepper_blossom_end_rot_Bing_0004,Bell pepper,bell pepper blossom end rot,1,0.2809093500570125,0.28090935
+plantseg_blueberry_botrytis_blight_Bing_0015,Blueberry,blueberry botrytis blight,1,0.0327261306532663,0.03272613
+plantseg_blueberry_mummy_berry_Bing_0024,Blueberry,blueberry mummy berry,0,0.0769548872180451,0.07695489
+plantseg_blueberry_rust_google_0004,Blueberry,blueberry rust,1,0.2013837429111531,0.20138374
+plantseg_blueberry_scorch_Bing_0221,Blueberry,blueberry scorch,0,0.0368730095541401,0.03687301
+plantseg_broccoli_alternaria_leaf_spot_Bing_0045,Broccoli,broccoli alternaria leaf spot,0,0.4701544289583603,0.47015443
+plantseg_broccoli_alternaria_leaf_spot_Bing_0119,Broccoli,broccoli alternaria leaf spot,1,0.0086782544081616,0.00867825
+plantseg_broccoli_alternaria_leaf_spot_Google_0057,Broccoli,broccoli alternaria leaf spot,1,0.169910265203475,0.16991027
+plantseg_broccoli_ring_spot_Bing_0018,Broccoli,broccoli ring spot,0,0.1352125,0.1352125
+plantseg_cabbage_alternaria_leaf_spot_google_0148,Cabbage,cabbage alternaria leaf spot,0,0.1211700439453125,0.12117004
+plantseg_cabbage_black_rot_Bing_0097,Cabbage,cabbage black rot,1,0.1669166666666666,0.16691667
+plantseg_cabbage_black_rot_Google_0110,Cabbage,cabbage black rot,1,0.1532474269588313,0.15324743
+plantseg_cabbage_downy_mildew_Bing_0012,Cabbage,cabbage downy mildew,0,0.0845296296296296,0.08452963
+plantseg_carrot_alternaria_leaf_blight_Bing_0091,Carrot,carrot alternaria leaf blight,0,0.2398824074074074,0.23988241
+plantseg_carrot_cavity_spot_google_0003,Carrot,carrot cavity spot,1,0.0332409972299169,0.033241
+plantseg_carrot_cavity_spot_google_0161,Carrot,carrot cavity spot,0,0.3907948717948717,0.39079487
+plantseg_carrot_cercospora_leaf_blight_Bing_0009,Carrot,carrot cercospora leaf blight,1,0.1424740740740741,0.14247407
+plantseg_cauliflower_alternaria_leaf_spot_google_0002,Cauliflower,cauliflower alternaria leaf spot,0,0.0495416666666666,0.04954167
+plantseg_cauliflower_alternaria_leaf_spot_google_0003,Cauliflower,cauliflower alternaria leaf spot,1,0.4477113820747616,0.44771138
+plantseg_cauliflower_bacterial_soft_rot_Bing_0021,Cauliflower,cauliflower bacterial soft rot,1,0.3492471857410882,0.34924719
+plantseg_cauliflower_bacterial_soft_rot_Bing_0205,Cauliflower,cauliflower bacterial soft rot,0,0.0265111111111111,0.02651111
+plantseg_celery_anthracnose_google_0007,Celery,celery anthracnose,1,0.0518864689462386,0.05188647
+plantseg_celery_anthracnose_google_0090,Celery,celery anthracnose,0,0.0263178197388469,0.02631782
+plantseg_celery_early_blight_52,Celery,celery early blight,0,0.0114743589743589,0.01147436
+plantseg_celery_early_blight_google_0009,Celery,celery early blight,1,0.0235747446610956,0.02357474
+plantseg_cherry_leaf_spot_70,Cherry,cherry leaf spot,1,0.2096907963331573,0.2096908
+plantseg_cherry_leaf_spot_google_0216,Cherry,cherry leaf spot,0,0.0189490447515127,0.01894904
+plantseg_cherry_powdery_mildew_67,Cherry,cherry powdery mildew,0,0.2701475912002228,0.27014759
+plantseg_cherry_powdery_mildew_76,Cherry,cherry powdery mildew,1,0.14941059892415,0.1494106
+plantseg_citrus_canker_22,Citrus,citrus canker,1,0.1720308788598575,0.17203088
+plantseg_citrus_canker_247,Citrus,citrus canker,0,0.0194490358126721,0.01944904
+plantseg_citrus_canker_276,Citrus,citrus canker,1,0.1718277028667627,0.1718277
+plantseg_citrus_canker_google_0071,Citrus,citrus canker,0,0.0616946160635481,0.06169462
+plantseg_coffee_berry_blotch_Bing_0006,Coffee,coffee berry blotch,0,0.0655794270833333,0.06557943
+plantseg_coffee_leaf_rust_google_0045,Coffee,coffee leaf rust,1,0.1406302083333333,0.14063021
+plantseg_coffee_leaf_rust_google_0077,Coffee,coffee leaf rust,1,0.3193626403808594,0.31936264
+plantseg_coffee_leaf_rust_google_0130,Coffee,coffee leaf rust,0,0.1138155990379106,0.1138156
+plantseg_corn_gray_leaf_spot_google_0053,Corn,corn gray leaf spot,0,0.0987113122171945,0.09871131
+plantseg_corn_rust_google_0094,Corn,corn rust,1,0.4188966723184577,0.41889667
+plantseg_corn_smut_google_0049,Corn,corn smut,0,0.1005161505161505,0.10051615
+plantseg_cucumber_angular_leaf_spot_79,Cucumber,cucumber angular leaf spot,1,0.5379435221354166,0.53794352
+plantseg_cucumber_angular_leaf_spot_google_0083,Cucumber,cucumber angular leaf spot,0,0.1778018774000853,0.17780188
+plantseg_cucumber_powdery_mildew_77,Cucumber,cucumber powdery mildew,0,0.2438178963893249,0.2438179
+plantseg_eggplant_phomopsis_fruit_rot_Bing_0022,Eggplant,eggplant phomopsis fruit rot,0,0.139141039852337,0.13914104
+plantseg_eggplant_phomopsis_fruit_rot_Bing_0037,Eggplant,eggplant phomopsis fruit rot,1,0.0979629629629629,0.09796296
+plantseg_eggplant_phytophthora_blight_Bing_0022,Eggplant,eggplant phytophthora blight,0,0.2043080710392122,0.20430807
+plantseg_garlic_leaf_blight_140,Garlic,garlic leaf blight,0,0.1674094564827621,0.16740946
+plantseg_garlic_leaf_blight_163,Garlic,garlic leaf blight,0,0.0625204694323144,0.06252047
+plantseg_garlic_leaf_blight_google_0295,Garlic,garlic leaf blight,1,0.0658134727626459,0.06581347
+plantseg_ginger_sheath_blight_161,Ginger,ginger sheath blight,1,0.1049060915518103,0.10490609
+plantseg_ginger_sheath_blight_30,Ginger,ginger sheath blight,0,0.0855219298245614,0.08552193
+plantseg_grape_black_rot_google_0233,Grape,grape black rot,0,0.0255472572753026,0.02554726
+plantseg_grape_downy_mildew_google_0013,Grape,grape downy mildew,1,0.1769172932330827,0.17691729
+plantseg_lettuce_downy_mildew_google_0018,Lettuce,lettuce downy mildew,1,0.0662454989711934,0.0662455
+plantseg_lettuce_downy_mildew_google_0147,Lettuce,lettuce downy mildew,0,0.5620045580657946,0.56200456
+plantseg_maple_tar_spot_google_0005,Maple,maple tar spot,0,0.2339046875,0.23390469
+plantseg_maple_tar_spot_google_0022,Maple,maple tar spot,1,0.1112055555555555,0.11120556
+plantseg_peach_leaf_curl_google_0085,Peach,peach leaf curl,1,0.0599508713385242,0.05995087
+plantseg_peach_leaf_curl_google_0252,Peach,peach leaf curl,0,0.2762825520833333,0.27628255
+plantseg_plum_brown_rot_Bing_0075,Plum,plum brown rot,1,0.6160298418544194,0.61602984
+plantseg_plum_pocket_disease_google_0062,Plum,plum pocket disease,0,0.149895421798745,0.14989542
+plantseg_potato_late_blight_43,Potato,potato late blight,0,0.091835294117647,0.09183529
+plantseg_potato_late_blight_google_0102,Potato,potato late blight,1,0.0318642670253537,0.03186427
+plantseg_raspberry_fire_blight_Google_0005,Raspberry,raspberry fire blight,0,0.4305899705014749,0.43058997
+plantseg_raspberry_yellow_rust_Bing_0010,Raspberry,raspberry yellow rust,1,0.4908148148148148,0.49081481
+plantseg_rice_blast_23,Rice,rice blast,1,0.0324382716049382,0.03243827
+plantseg_rice_sheath_blight_43,Rice,rice sheath blight,0,0.01153076171875,0.01153076
+plantseg_soybean_downy_mildew_Google_0061,Soybean,soybean downy mildew,0,0.4162149480348489,0.41621495
+plantseg_soybean_frog_eye_leaf_spot_Bing_0047,Soybean,soybean frog eye leaf spot,1,0.2189791666666666,0.21897917
+plantseg_squash_powdery_mildew_28,Squash,squash powdery mildew,0,0.1408157894736842,0.14081579
+plantseg_squash_powdery_mildew_google_0000,Squash,squash powdery mildew,1,0.4077879249112126,0.40778792
+plantseg_strawberry_leaf_scorch_google_0133,Strawberry,strawberry leaf scorch,0,0.0314649321266968,0.03146493
+plantseg_strawberry_leaf_scorch_google_0186,Strawberry,strawberry leaf scorch,1,0.2214338235294117,0.22143382
+plantseg_tobacco_brown_spot_Bing_0041,Tobacco,tobacco brown spot,0,0.3106325508926975,0.31063255
+plantseg_tobacco_mosaic_virus_117,Tobacco,tobacco mosaic virus,1,0.8211946666666666,0.82119467
+plantseg_tomato_septoria_leaf_spot_google_0061,Tomato,tomato septoria leaf spot,1,0.2781129826180588,0.27811298
+plantseg_tomato_yellow_leaf_curl_virus_google_0037,Tomato,tomato yellow leaf curl virus,0,0.3688105377421509,0.36881054
+plantseg_wheat_head_scab_Baidu_0127,Wheat,wheat head scab,1,0.102016888927251,0.10201689
+plantseg_wheat_loose_smut_Bing_0004,Wheat,wheat loose smut,0,0.2120806227707522,0.21208062
+plantseg_zucchini_powdery_mildew_Bing_0046,Zucchini,zucchini powdery mildew,0,0.0778308823529411,0.07783088
+plantseg_zucchini_powdery_mildew_Google_0314,Zucchini,zucchini powdery mildew,1,0.3830686813186813,0.38306868

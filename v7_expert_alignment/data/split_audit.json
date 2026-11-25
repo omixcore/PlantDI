@@ -1,0 +1,9 @@
+{
+  "n_train": 7916,
+  "n_val": 1247,
+  "n_test": 2295,
+  "train_overlap_plantseg100": 0,
+  "train_overlap_official_test": 0,
+  "eval100_in_test": 100,
+  "source": "https://hf-mirror.com/datasets/XuVV/plantsegv3"
+}
